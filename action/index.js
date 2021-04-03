@@ -1,0 +1,7 @@
+require('./start')
+require('./videos')
+require('./taqvimsurat')
+require('./duo')
+require('./tabriklar')
+require('./main')
+require('./time')

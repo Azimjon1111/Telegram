@@ -1,0 +1,15 @@
+const { bot } = require('../bot')
+const { Markup } = require('telegraf')
+
+bot.hears('🎉Tabriklar', ctx =>{
+    ctx.replyWithPhoto({source:'image/Ramadan1.jpg'})
+    ctx.replyWithPhoto({source:'image/Ramadan2.jpg'})
+    ctx.replyWithPhoto({source:'image/Ramadan3.jpg'})
+    ctx.replyWithPhoto({source:'image/Ramadan4.jpg'})
+    ctx.replyWithPhoto({source:'image/Ramadan5.jpg'})
+    ctx.replyWithPhoto({source:'image/Ramadan6.jpg'})
+    ctx.replyWithPhoto({source:'image/Ramadan7.jpg'})
+    ctx.replyWithPhoto({source:'image/Ramadan8.jpg'})
+    ctx.replyWithPhoto({source:'image/Ramadan13.jpg'})
+})
+// bot.launch()
